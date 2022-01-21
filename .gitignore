@@ -1,0 +1,36 @@
+/tmp
+*/**/*un~
+*/**/*.test
+*un~
+.DS_Store
+*/**/.DS_Store
+.ethtest
+*/**/*tx_database*
+*/**/*dapps*
+build/_vendor/pkg
+
+#*
+.#*
+*#
+*~
+.project
+.settings
+
+# used by the Makefile
+/build/
+
+# travis
+profile.tmp
+profile.cov
+
+# IdeaIDE
+.idea
+
+# VS Code
+.vscode
+
+**/yarn-error.log
+go.sum
+/testdata
+log/
+**/logs/
